@@ -148,16 +148,16 @@
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derby</artifactId>
 			<version>${derby.version}</version>
-<!-- 			<scope>test</scope> -->
+			<!-- <scope>test</scope> -->
 		</dependency>
 
-	<dependency>
-            <groupId>org.mule.modules</groupId>
-            <artifactId>mule-module-json</artifactId>
-            <version>${mule.version}</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>org.mule.modules</groupId>
+			<artifactId>mule-module-json</artifactId>
+			<version>${mule.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 
 	<repositories>
 		<repository>
